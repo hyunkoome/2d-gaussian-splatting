@@ -53,6 +53,8 @@ git clone https://github.com/hbb1/2d-gaussian-splatting.git --recursive
 conda env create --file environment.yml
 conda activate surfel_splatting
 ```
+- Or, create a new environment as follows [here](./docs/create_conda_env.md)
+
 ## Training
 To train a scene, simply use
 ```bash

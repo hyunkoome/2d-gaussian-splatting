@@ -13,3 +13,5 @@ eval
 *.npz
 **/tmp
 .idea/
+**egg-info**
+**-cpython-**
