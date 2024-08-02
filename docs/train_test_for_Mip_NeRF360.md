@@ -50,7 +50,7 @@ python train.py -s <path to m360>/<garden> -m output/m360/garden
 python train.py -s data/m360/garden  -m output/m360/garden
 ```
 
-### 2. Testing: Bounded Mesh Extraction for Mip-NeRF360  
+### 2. Testing: Unbounded Mesh Extraction for Mip-NeRF360  
 ```shell
 # use our unbounded mesh extraction!!
 python render.py -s <path to m360>/<garden> -m output/m360/garden --unbounded --skip_test --skip_train --mesh_res 1024
@@ -58,7 +58,7 @@ python render.py -s <path to m360>/<garden> -m output/m360/garden --unbounded --
 python render.py -s data/m360/garden -m output/m360/garden --unbounded --skip_test --skip_train --mesh_res 1024
 ```
 
-### 3. Testing: Unbounded Mesh Extraction for Mip-NeRF360  
+### 3. Testing: Bounded Mesh Extraction for Mip-NeRF360  
 ```shell
 # or use the bounded mesh extraction if you focus on foreground
 python render.py -s <path to m360>/<garden> -m output/m360/garden --skip_test --skip_train --mesh_res 1024
